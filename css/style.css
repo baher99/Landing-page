@@ -1,0 +1,108 @@
+nav 
+{
+    background-color: #e7e7e7;
+}
+nav a
+{
+    color: #777;
+}
+nav a:hover
+{
+color: #333;;
+}
+.contact-btn
+{
+    text-align: center;
+}
+.head-info h5
+{
+    position: relative;
+}
+.line
+{
+    margin: auto;
+    height:1.5px ;
+    width: 90%;
+    background-color: white;
+}
+.contact-btn button
+{
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: none;
+    margin-right: 10px;
+    color: #333;
+    font-size: 18px;
+}
+.contact-btn button:hover
+{
+    background-color: #ccc;
+}
+header
+{
+    background-image: url(../images/intro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header h1
+{
+    font-size: 70px;
+}
+.about-us-a
+{
+    background-color: #e7e7e7;
+}
+.about-us-a h2
+{
+    position: relative;
+    margin-top: 60px;
+
+}
+.about-us-b h2
+{
+    position: relative;
+    margin-top: 60px;
+}
+.about-us-a h2::before
+{
+    content: '';
+    margin-bottom:20px ;
+    top:-50px;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background-color: #ccc;
+    position: absolute;
+}
+.about-us-b h2::before
+{
+    content: '';
+    margin-bottom:20px ;
+    top:-50px;
+    left: 0;
+    width: 40%;
+    height: 3px;
+    background-color: #e7e7e7;
+    position: absolute;
+}
+.connect-us
+{   
+    background-image: url(../images/banner-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 90px 0px;
+}
+.footer-links
+{
+    color: #337ab7;;
+    font-size: small;
+    font-weight: 500;
+}
+footer p
+{
+    color: #777;
+    font-size: smaller;
+}
